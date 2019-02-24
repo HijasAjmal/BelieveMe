@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>BelieveMe</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    params[:controller] %>
+    <%= javascript_include_tag 'application' %>
+
+  </head>
+  <body>
+
+    <div class="hero">
+      <div class="cube"><p>Java</p></div>
+
+      <div class="cube"><p>Python</p></div>
+
+      <div class="cube"><p>C</p></div>
+
+      <div class="cube"><p>C++</p></div>
+
+      <div class="cube"><p>Ruby</p></div>
+
+      <div class="cube"><p>Lisp</p></div>
+
+      <div class="cube"><p>Perl</p></div>
+
+      <div class="cube"><p>HTML</p></div>
+
+      <div class="cube"><p>CSS</p></div>
+
+      <div class="cube"><p>Php</p></div>
+
+      <div class="cube"><p>.Net</p></div>
+
+      <div class="cube"><p>Django</p></div>
+
+    </div>
+    <%= yield %>
+  </body>
+</html>
