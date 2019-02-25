@@ -19,5 +19,5 @@ Rails.application.routes.draw do
     get 'dashboard', on: :collection
   end
 
-  root to: 'users#signin_user_page'
+  root to: 'site_pages#index'
 end

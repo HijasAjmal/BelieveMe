@@ -1,0 +1,14 @@
+<%= form_tag(signin_user_users_path, {class: 'log-in'}) do %>
+  <h4>Login to <span>BeMe</span></h4>
+  <% if flash[:notice] %>
+    <p align="center" style="color: green;"><%= flash[:notice] %></p>
+  <% end %>
+  <div class="floating-label">
+    <%= email_field_tag :email, params[:email], placeholder: "Email", class: "input-label", style: "background-color: transparent" %>
+  </div>
+  <div class="floating-label">
+    <%= password_field_tag :password, params[:password], placeholder: "Password", class: "input-label", style: "background-color: transparent" %>
+  </div>
+  <%= button_tag 'Log In', class: "submit-button"%>
+  <%= link_to 'New User?', signup_user_page_users_path, class: "discrete"%>
+<% end %>
