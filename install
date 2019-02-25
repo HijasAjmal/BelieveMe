@@ -1,0 +1,201 @@
+Script started on Monday 25 February 2019 03:49:23 PM IST
+                        __     ___                
+                        \ \   / (_)_ __ _   _ ___ 
+                         \ \ / /| | '__| | | / __|
+                          \ V / | | |  | |_| \__ \
+                           \_/  |_|_|   \__,_|___/
+                                                  
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rake db:migrate[1Pcreateete[1Ptemigrate[Kscript
+Script started, file is typescript
+                        __     ___                
+                        \ \   / (_)_ __ _   _ ___ 
+                         \ \ / /| | '__| | | / __|
+                          \ V / | | |  | |_| \__ \
+                           \_/  |_|_|   \__,_|___/
+                                                  
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails pl[K[K[K 
+app/           config/        db/            Gemfile.lock   .gitignore     lib/           package.json   Rakefile       .ruby-version  test/          typescript     yarn.lock      
+bin/           config.ru      Gemfile        .git/          install        log/           public/        README.md      storage/       tmp/           vendor/        
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails [K[K[K[K[K[Kcd vendor/
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe/vendor[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe/vendor[00m$ ls
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe/vendor[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe/vendor[00m$ ls
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe/vendor[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe/vendor[00m$ cd ..
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails g install  https://github.com/stffn/declarative_authorization.git
+Running via Spring preloader in process 25895
+Could not find generator 'install'. Maybe you meant 'task', 'assets' or 'channel'
+Run `rails generate --help` for more options.
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails generate ==[K[K--g[Khelp
+Running via Spring preloader in process 25911
+Usage: rails generate GENERATOR [args] [options]
+
+General options:
+  -h, [--help]     # Print generator's options and usage
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -s, [--skip]     # Skip files that already exist
+  -q, [--quiet]    # Suppress status output
+
+Please choose a generator below.
+
+Rails:
+  application_record
+  assets
+  channel
+  controller
+  generator
+  helper
+  integration_test
+  jbuilder
+  job
+  mailer
+  migration
+  model
+  resource
+  scaffold
+  scaffold_controller
+  system_test
+  task
+
+ActiveRecord:
+  active_record:application_record
+
+Coffee:
+  coffee:assets
+
+Js:
+  js:assets
+
+TestUnit:
+  test_unit:generator
+  test_unit:plugin
+
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails test/[K)[K_unit:pu[Klugin install  https://github.com/stffn/declarative_authorization.git
+rails aborted!
+Don't know how to build task 'test_unit:plugin' (See the list of available tasks with `rake --tasks`)
+Did you mean?  test:integration
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/commands/rake/rake_command.rb:23:in `block in perform'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/commands/rake/rake_command.rb:20:in `perform'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/command.rb:48:in `invoke'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/railties-5.2.2/lib/rails/commands.rb:18:in `<main>'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:83:in `register'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.2/lib/active_support/dependencies.rb:291:in `block in require'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.2/lib/active_support/dependencies.rb:257:in `load_dependency'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/activesupport-5.2.2/lib/active_support/dependencies.rb:291:in `require'
+/home/foradian/RailProjects/BelieveMe/bin/rails:9:in `<top (required)>'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `load'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/client/rails.rb:28:in `call'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/client/command.rb:7:in `call'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/client.rb:30:in `run'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/bin/spring:49:in `<top (required)>'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `load'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/spring-2.0.2/lib/spring/binstub.rb:31:in `<top (required)>'
+/home/foradian/RailProjects/BelieveMe/bin/spring:15:in `require'
+/home/foradian/RailProjects/BelieveMe/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+(See full trace by running task with --trace)
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ rails test_unit:plugin install  https://github.com/stffn/declarative_authorization.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgenerate --help[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krake gem:isn[K[Knstall
+rake aborted!
+NoMethodError: undefined method `hide_action' for ActionController::Base:Class
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/declarative_authorization-0.5.7/lib/declarative_authorization/in_controller.rb:9:in `included'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/declarative_authorization-0.5.7/lib/declarative_authorization.rb:16:in `include'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/declarative_authorization-0.5.7/lib/declarative_authorization.rb:16:in `<main>'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `block in require_with_bootsnap_lfi'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/loaded_features_index.rb:83:in `register'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:20:in `require_with_bootsnap_lfi'
+/home/foradian/.rvm/gems/ruby-2.6.0/gems/bootsnap-1.4.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:29:in `require'
+/home/foradian/RailProjects/BelieveMe/config/application.rb:7:in `<top (required)>'
+/home/foradian/RailProjects/BelieveMe/Rakefile:4:in `require_relative'
+/home/foradian/RailProjects/BelieveMe/Rakefile:4:in `<top (required)>'
+/home/foradian/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `eval'
+/home/foradian/.rvm/gems/ruby-2.6.0/bin/ruby_executable_hooks:24:in `<main>'
+(See full trace by running task with --trace)
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ fconn[K[K[K[K[Kf
+Display all 101 possibilities? (y or n)
+f2py                fc                  fdisk               figlet-figlet       finger              foo2hbpl2           foo2qpdl-wrapper    free                fsck.nfs            fwupdate
+factor              fc-cache            ffmpeg              figlist             firefox             foo2hbpl2-wrapper   foo2slx             from                fsck.vfat           fwupdmgr
+faillog             fc-cat              ffplay              file                fitstopnm           foo2hiperc          foo2slx-wrapper     fsck                fsfreeze            
+faked-sysv          fcgistarter         ffprobe             file2brl            fixcvsdiff          foo2hiperc-wrapper  foo2xqx             fsck.cramfs         fstab-decode        
+faked-tcp           fc-list             ffserver            filefrag            fixparts            foo2hp              foo2xqx-wrapper     fsck.ext2           fstopgm             
+fakeroot            fc-match            fg                  file-rename         fix-qdf             foo2hp2600-wrapper  foo2zjs             fsck.ext3           fstrim              
+fakeroot-sysv       fc-pattern          fgconsole           file-roller         flipdiff            foo2lava            foo2zjs-icc2ps      fsck.ext4           ftp                 
+fakeroot-tcp        fc-query            fgrep               filterdiff          flock               foo2lava-wrapper    foo2zjs-pstops      fsck.ext4dev        function            
+fallocate           fc-scan             fi                  find                fmt                 foo2oak             foo2zjs-wrapper     fsck.fat            funzip              
+false               fc-validate         fiascotopnm         findfs              fold                foo2oak-wrapper     foomatic-rip        fsck.minix          fuser               
+fatlabel            fdformat            figlet              findmnt             fonttosfnt          foo2qpdl            for                 fsck.msdos          fusermount          
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ figlist 
+Default font: standard
+Font directory: /usr/share/figlet
+Figlet fonts in this directory:
+banner
+big
+block
+bubble
+digital
+ivrit
+lean
+mini
+mnemonic
+script
+shadow
+slant
+small
+smscript
+smshadow
+smslant
+standard
+term
+Figlet control files in this directory:
+646-ca2
+646-ca
+646-cn
+646-cu
+646-de
+646-dk
+646-es2
+646-es
+646-fr
+646-gb
+646-hu
+646-irv
+646-it
+646-jp
+646-kr
+646-no2
+646-no
+646-pt2
+646-pt
+646-se2
+646-se
+646-yu
+8859-2
+8859-3
+8859-4
+8859-5
+8859-7
+8859-8
+8859-9
+frango
+hz
+ilhebrew
+jis0201
+koi8r
+moscow
+upper
+ushebrew
+uskata
+utf8
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ figlist banner
+Usage: figlist [ -d directory ]
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ free
+              total        used        free      shared  buff/cache   available
+Mem:        8052612     5150776      693680      892500     2208156     1628260
+Swap:       8272892        5644     8267248
+]0;foradian@foradian-H110M-H: ~/RailProjects/BelieveMe[01;32mforadian@foradian-H110M-H[00m:[01;34m~/RailProjects/BelieveMe[00m$ f
+Display all 101 possibilities? (y or n)
+f2py                fc                  fdisk               figlet-figlet       finger              foo2hbpl2           foo2qpdl-wrapper    free               

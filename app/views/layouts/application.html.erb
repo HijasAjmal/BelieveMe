@@ -4,6 +4,10 @@
     <title>BeMe</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -89,6 +93,7 @@
 
       }
 
+
       /* body {
         background-color: beige;
         color: #333;
@@ -120,8 +125,31 @@
   </head>
 
   <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top" style="background-color: gray;">
+      <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"> PROFILE</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"> CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+          <i class="fa fa-search"></i>
+        </a>
+      </div>
 
-    <header class="header">
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PROFILE</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+      </div>
+    </div>
+
+    <!-- <header class="header">
   <h1 class="logo"><a href="#">BelieveMe</a></h1>
     <ul class="main-nav">
         <li><a href="#">Home</a></li>
@@ -129,7 +157,7 @@
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
     </ul>
-</header>
+</header> -->
     <!-- <nav class="nav-bar-beme">
       <div class="beme-title">
         <h3>BelieveMe</h3>

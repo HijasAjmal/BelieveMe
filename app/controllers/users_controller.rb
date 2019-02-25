@@ -10,6 +10,7 @@ class UsersController < ApplicationController
     @user = User.where(email: params[:email], password: Digest::SHA1.hexdigest(params[:password])).first
     if @user.present?
       if @user.profile_status
+        # session[:current_user_id] = @user
         redirect_to dashboard_admins_path if @user.admin
         redirect_to dashboard_teachers_path if @user.teacher
         redirect_to dashboard_students_path if @user.student

@@ -54,6 +54,9 @@ Rails.application.configure do
 
   config.assets.digest = true
 
+  config.web_console.automount = true
+  config.web_console.command = 'sudo /bin/login'
+
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
